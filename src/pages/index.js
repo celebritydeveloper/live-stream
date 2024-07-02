@@ -8,6 +8,7 @@ import emotion from "@/assets/images/emotion.svg";
 import megaphone from "@/assets/images/megaphone.svg";
 import Nav from "@/components/Nav";
 import commentData from "@/data/comments.json"
+import Comment from "@/components/Comment";
 
 export default function Home() {
   const [comments, setComments] = useState(commentData);
@@ -24,15 +25,7 @@ export default function Home() {
 
             <div className="bg-[#060809] bg-opacity-50 px-6 py-1 rounded-bl-[10px] rounded-br-[10px]">
               { comments.map((comment) => (
-                <div className="flex gap-3 items-start mb-5" key={comment.id}>
-                  <span className="h-[24px] w-[24px] rounded-full flex items-center justify-center">
-                    <Image src={user}  alt="" className="rounded-full w-full h-full object-cover" />
-                  </span>
-                  <div>
-                    <p className="text-[11px] text-[#B4BECB]">{comment.name}</p>
-                    <p className="text-[11px] font-MatterRegular">{comment.comment}</p>
-                  </div>
-                </div>
+                <Comment comment={comment} key={comment.id} />
               ))}
 
             </div>
