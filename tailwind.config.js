@@ -10,8 +10,8 @@ module.exports = {
       fontFamily: {
         MDNichromeTest: ["MDNichromeTest", "sans-serif"],
         MatterRegular: ["MatterRegular", "sans-serif"],
-        MatterRegular: ["MatterMedium", "sans-serif"],
-        MatterRegular: ["MatterSemiBold", "sans-serif"]
+        MatterMedium: ["MatterMedium", "sans-serif"],
+        MatterSemiBold: ["MatterSemiBold", "sans-serif"]
       },  
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

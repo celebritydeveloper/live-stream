@@ -13,7 +13,7 @@
 @font-face {
   font-family: "MatterRegular";
   src: url("../assets/fonts/matter/Matter-Regular.ttf");
-  font-weight: 300;
+  font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
@@ -21,7 +21,7 @@
 @font-face {
   font-family: "MatterMedium";
   src: url("../assets/fonts/matter/Matter-Medium.ttf");
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
@@ -29,7 +29,7 @@
 @font-face {
   font-family: "MatterSemiBold";
   src: url("../assets/fonts/matter/Matter-SemiBold.ttf");
-  font-weight: 500;
+  font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
