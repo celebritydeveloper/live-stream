@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "MDNichromeTest";
+  src: url("../assets/fonts/nichrome/MDNichromeTest-Bold.otf");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MatterRegular";
+  src: url("../assets/fonts/matter/Matter-Regular.ttf");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MatterMedium";
+  src: url("../assets/fonts/matter/Matter-Medium.ttf");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MatterSemiBold";
+  src: url("../assets/fonts/matter/Matter-SemiBold.ttf");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

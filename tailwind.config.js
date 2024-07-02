@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        MDNichromeTest: ["MDNichromeTest", "sans-serif"],
+        MatterRegular: ["MatterRegular", "sans-serif"],
+        MatterRegular: ["MatterMedium", "sans-serif"],
+        MatterRegular: ["MatterSemiBold", "sans-serif"]
+      },  
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
