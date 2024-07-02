@@ -15,11 +15,11 @@ export default function Home() {
   return (
     <React.Fragment>
       <Nav />
-      <main className="min-h-screen main-bg px-[5rem] font-MatterMedium">
+      <main className="min-h-screen main-bg px-[5rem] font-MatterMedium bg-opacity-15">
 
         <div className="fixed right-24 bottom-3 w-[320px]"> 
           <div className="rounded-bl-[10px] rounded-br-[10px] mb-5 backdrop-blur-sm">
-            <div className="text-right bg-[#060809] bg-opacity-40 rounded-tl-[10px] rounded-tr-[10px] py-2 px-2">
+            <div className="text-right bg-[#060809] bg-opacity-40 rounded-tl-[10px] rounded-tr-[10px] py-2 px-4">
               <button className="text-[11px] font-medium">Hide comments</button>
             </div>
 
@@ -49,12 +49,12 @@ export default function Home() {
 
                 <span className="text-[10px] font-MatterMedium">5200 Coins</span>
 
-                <button className="text-[10px] font-MatterMedium h-[24px] w-[43px] rounded-[98px] bg-[#BACFF7] bg-opacity-5
+                <button type="button" className="text-[10px] font-MatterMedium h-[24px] w-[43px] rounded-[98px] bg-[#BACFF7] bg-opacity-5
                 border-2 border-[#BACFF7] border-opacity-5">Send</button>
               </div>
 
               <div className="h-[32px] w-[85px]">
-                <button className="w-full h-full text-[10px] font-MatterMedium  rounded-[98px] bg-[#BACFF7] bg-opacity-5
+                <button type="button" className="w-full h-full text-[10px] font-MatterMedium rounded-[98px] bg-[#BACFF7] bg-opacity-5
                 border-2 border-[#BACFF7] border-opacity-5">Add Coins</button>
               </div>
             </div>

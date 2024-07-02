@@ -7,7 +7,7 @@ import megaphone from "@/assets/images/megaphone.svg";
 
 function Nav() {
     return (
-        <nav className="flex items-center justify-between py-5 px-[5rem] w-full fixed top-0">
+        <nav className="flex items-center justify-between py-5 px-[5rem] w-full fixed top-0 bg-slate-500 bg-opacity-25">
             <ul className="inline-flex items-center gap-16">
             <li>
                 <Link href="/">
